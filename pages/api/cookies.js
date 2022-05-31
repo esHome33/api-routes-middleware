@@ -2,7 +2,7 @@ import cookies from '../../utils/cookies'
 
 const handler = (req, res) => {
   // The cookie middleware will add the `set-cookie` header
-  const qu =  req.query
+  const qu =  req.query.coucou
 
   res.cookie('Next.js', 'api-middleware! '+ qu)
   
